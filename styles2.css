@@ -1,0 +1,99 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for header and navigation */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E6;
+}
+
+header {
+    background-color: #F9A07C;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Styling for animal cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card2 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.2s;
+    display: block
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+.animal-image {
+    width: 100%;
+    height: auto;
+}
+
+.animal-info {
+    padding: 15px;
+}
+
+.animal-info h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.animal-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    position: fixed; 
+    bottom: 0px; 
+    width: 100%;
+}
